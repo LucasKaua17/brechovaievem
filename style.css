@@ -12,29 +12,43 @@ a {
 ul {
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
+
 
 .anuncio {
     background-color: black;
     width: 100%;
-    padding: 20px;
+    height: 50px;
+    
     color: #ffffff;
-    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
-
 
 .nav-principal {
     background-color: white;
     border: 2px solid rgb(146, 91, 91);
     width: 100%;
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+
+/*barra de pesquisa e navegador de abas*/
+.central {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 10px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    float: right;
+    
+    
     
 }
 
@@ -49,15 +63,28 @@ nav {
     
 }
 
-.icons {
+
+.material-icons {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.div-icons {
     height: 80px;
-    width: 120px;
+    width: 210px;
     border: 2px solid rgb(0, 0, 0);
+    padding-top: 13px;
+    margin-right: 60px;
 }
 
 #logo {
-    height: 124px;
+    height: 115px;
     float: left;
     margin-left: 55px;
-    margin-top: -10px;
+    margin-top: -35px;
+    
 }
