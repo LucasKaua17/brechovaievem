@@ -46,12 +46,6 @@ ul {
     gap: 10px;
 }
 
-nav {
-    
-    
-    
-}
-
 .busca {
     border: 0.5px solid rgb(224, 224, 224);
     height: 30px;
@@ -89,13 +83,29 @@ nav {
     
 }
 
-.imagem1 {
-    display: flex;
-    justify-content: center;
+.section-1 {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-banner {
     width: 96%;
     margin-top: 30px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.nav2 > img {
+    width: 25%;
+}
+
+.section-2 {
+    padding: 20px;
 }
