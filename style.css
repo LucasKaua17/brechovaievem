@@ -1,12 +1,40 @@
-* { margin: 0; padding: 0; box-sizing: border-box;}
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;}
 
-
-body {
-   font-family: "Poppins", sans-serif;
+/*--HEADER--*/
+.anuncio {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    font-size: 13px;
 }
 
-a {
-    text-decoration: none;
+.nav-principal {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    height: 115px;
+    float: left;
+    margin-top: -35px;
+}
+
+.div-busca-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 10px;
+}
+
+a {color: black;}
+
+a :hover {
+    color: #C1851D;
 }
 
 ul {
@@ -16,96 +44,77 @@ ul {
     gap: 30px;
 }
 
-
-.anuncio {
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    
-    color: #ffffff;
-    text-align: center;
-    align-content: center;
-}
-
-.nav-principal {
-    background-color: white;
-    border: 2px solid rgb(255, 255, 255);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
- 
-    
-}
-
-/*barra de pesquisa e navegador de abas*/
-.central {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-    gap: 10px;
-}
+.itens-nav {text-decoration: none;}
 
 .busca {
-    border: 0.5px solid rgb(224, 224, 224);
-    height: 30px;
+    border: 0.3px solid rgb(224, 224, 224);
+    height: 33px;
     width: 500px;
     background-color: #eeedec;
     padding-left: 10px;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
-    
 }
-
-
-.material-icons {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
 
 .div-icons {
-    height: 80px;
-    width: 210px;
-    border: 2px solid rgb(255, 255, 255);
-    padding-top: 13px;
-    margin-right: 60px;
+    height: 60px;
+    width: 185px;
+    padding-top: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
 }
+/*--HEADER--*/
 
-#logo {
-    height: 115px;
-    float: left;
-    margin-left: 55px;
-    margin-top: -35px;
-    
-}
+/*--MAIN--*/
 
-.section-1 {
-    max-width: 100%;
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .hero-banner {
-    width: 96%;
-    margin-top: 30px;
-}
-
-.nav2 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 90%;
     margin-top: 20px;
+    width: 97%;
 }
 
-.nav2 > img {
-    width: 25%;
+.nav-secundario {
+    margin-top: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
-.section-2 {
-    padding: 20px;
+.nav-secundario a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-secundario a img {width: 25vw; border-radius: 15px;}
+
+.section-novidades {
+    margin-top: 20px;
+    width: 85%;
+    height: 500px;
+    border: 1px solid #000000;
+}
+
+.section-novidades h1 {font-size: 40px;}
+
+.container-roupas {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--FOOTER--*/
+footer {
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 200px;
 }
